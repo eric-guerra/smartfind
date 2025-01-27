@@ -1,0 +1,14 @@
+{
+  "name": "smartfind",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "vitest run", "typecheck": "tsc --noEmit", "start": "tsx src/index.ts" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.136.0",
+    "@apollo/server": "4.10.4",
+    "@elastic/elasticsearch": "8.13.1",
+    "graphql": "16.8.1",
+    "pg": "8.11.3"
+  },
+  "devDependencies": { "@types/node": "20.14.10", "@types/pg": "8.11.6", "tsx": "4.16.2", "typescript": "5.5.4", "vitest": "2.0.5" }
+}
